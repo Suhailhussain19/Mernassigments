@@ -1,0 +1,56 @@
+Date: 09/11/2023
+Suhail Hussain Mir
+Assignment 3
+Q. What is URL?
+A. A URL is a type of uniform resource identifier and is address of a resource on the World Wide Web and the protocol used to access it. It is used to indicate the location of a web resource to access the web pages. For example, to visit the google website, you will go to the URL www.google.com, which is the URL for the Google website. The URL sends users to a specific resource online such as video, webpage, or other resources. When you search any query on Google, it will display the multiple URLs of the resource that are all related to your search query. The displayed URLs are the hyperlink to access the webpages.
+A URL (Uniform Resource Locator) contains the information, which is as follows:
+o	The port number on the server, which is optional.
+o	It contains a protocol that is used to access the resource.
+o	The location of the server
+o	A fragment identifier
+o	In the directory structure of the server, it contains the location of the resource.
+Q. Difference between HTTP and HTTPS?
+A. HTTP stands for Hypertext Transfer Protocol, while HTTPS stands for Hypertext Transfer Protocol Secure. HTTP is not a secure protocol because it does not contain SSL (Secure Sockets Layer). HTTPS is a more secure version of HTTP that uses SSL/TLS to encrypt connections between web browsers and servers. Now a days SSL is not considered secure as it is vulnerable to attacks SSL 1.0, SSL 2.0 and SSL 3.0 is obsolete. Now TLS is used to secure the website latest TLS version that are used to secure the website is TLS 3.0. only TLS 2.0 and TLS 3.0 is treated as secure.
+Here are some key differences between HTTP and HTTPS: 
+•	Security
+HTTP is not secure because it does not contain SSL. HTTPS is far more secure than HTTP because it uses TLS (SSL) to encrypt normal HTTP requests and responses, and to digitally sign those requests and responses.
+•	Encryption
+HTTP lacks a security mechanism to encrypt the data, whereas HTTPS provides SSL or TLS Digital Certificate to secure the communication between server and client.
+
+•	Port number 
+HTTP uses port number 80 for communication, while HTTPS uses port number 443.
+•	Operation
+HTTP operates at the Application Layer, while HTTPS operates at Transport Layer.
+
+HTTPS is used to transmit sensitive information, such as passwords, credit card details, and personal data. Google enforced the new protocol to appear in its SERPs, and that is why you see almost every website and web portal migrating to the new certificate. 
+Q. What are Meta Tags?
+A. The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data. <meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings. Metadata will not be displayed on the page, but is machine parsable. Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services. There is a method to let web designers take control over the viewport (the user's visible area of a web page), through the <meta> tag.
+Q. What is W3C?
+A. The World Wide Web Consortium, abbreviated as W3C, is an international community that develops open standards to ensure the long-term growth of the Web. It was founded in 1994 by Tim Berners-Lee, the inventor of the World Wide Web, and is composed of member organizations, full-time staff, and the public working together to develop web standards.
+W3C is responsible for creating and maintaining specifications and guidelines that shape the development of the internet. These standards ensure the interoperability and compatibility of web technologies across different devices and platforms. W3C's work covers a wide range of areas including web design, accessibility, security, and multimedia content.
+By promoting standards compliance, W3C plays a crucial role in making the web accessible to people around the world, regardless of the devices they use or their abilities. Their efforts contribute to a more seamless and user-friendly web experience for everyone.
+ 
+
+Q. Different doctypes of different versions of HTML?
+A. 
+1. HTML5 doctype: This is the most latest version of the document type currently used. It has no disadvantages and is easier to implement and recall. It will correctly validate all HTML 5 features, as well as most HTML 4/XHTML 1.0 features.  
+Syntax: <!DOCTYPE html>
+2. Strict doctype (HTML 4.01): The HTML 4.01 strict doctype validates the written code against the HTML 4.01 spec. However, it doesn’t allow any deprecated elements or presentational markups such as <font> elements, or framesets to be used. It validates loose HTML style markup, for example, minimized attributes and non-quoted attributes (eg required, rather than required=”required”).
+Syntax: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+3. Transitional doctype (HTML 4.01): The HTML 4.01 transitional doctype also validates the written code against the HTML 4.01 spec, the same as the strict doctype.  It does allow some presentational markup and deprecated elements (such as <font> elements) but not framesets. Just like strict doctype, it also validates loose HTML style markup.
+Syntax: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+4. Strict and Transitional doctypes (XML 1.0): These are the exact XHTML 1.0 coequals of the HTML 4.01 doctypes we talked about above, so functionally they are the same, except that they won’t validate loose HTML style markup: it all has to be well-formed XML.
+Syntax: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+5. Frameset doctypes (HTML 4.01 and XML 1.0): They are functionally the same as HTML 4.01 transitional and XHTML 1.0 transitional independently, but they allow the use of framesets. 
+Syntax: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+
+
+
+Q. What is DOM?
+A. DOM stands for Document Object Model. It is a programming interface for web documents. It represents the structure of a document as a tree of objects. Each object corresponds to a part of the document, such as elements, attributes, and text. Web browsers use the DOM to render web pages and to allow scripts (like JavaScript) to interact with the page dynamically.
+In simpler terms, the DOM is a way for programs to interact with web pages using objects like elements, making it possible to manipulate the structure, style, and content of a web document. Developers use the DOM to create interactive and dynamic websites, allowing users to interact with the web page content in various ways.
+
+
+
