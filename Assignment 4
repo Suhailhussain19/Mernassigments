@@ -1,0 +1,70 @@
+Assignment 4
+Date 12/11/2023
+Q. What is SEO?
+A. SEO stands for “search engine optimization.” In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines whenever people search for:
+•	Products you sell.
+•	Services you provide.
+•	Information on topics in which you have deep expertise and/or experience.
+The better visibility your pages have in search results, the more likely you are to be found and clicked on. Ultimately, the goal of search engine optimization is to help attract website visitors who will become customers, clients or an audience that keeps coming back.
+What algorithms evaluate for search engine optimization?
+There are hundreds of factors that go into what content from the index gets displayed into a SERP. However, they bubble up into five key factors that help determine which results are returned for a search query.
+Meaning of the query. To return relevant results, the algorithm needs to first establish what information the user is searching for. This is known as intent. To understand intent, the algorithm is looking to understand language. Interpreting spelling mistakes, synonyms and that some words mean different things in different contexts all play into the algorithm understanding searcher intent. For example, search engines would need to be able to distinguish between "bass" as a fish and "bass" as an instrument. Intent would be based on additional search terms, historical search, location search and more to display the correct information.
+Relevance of webpages. The algorithm analyzes webpage content to assess whether the sites contain information relevant to what a user is looking for. This comes after intent is established. A basic signal for relevance would be if the webpage includes the keywords used in the search. This includes showing up in the body copy or page headings. But beyond keyword matching, search engines use aggregated interaction data to determine if the page is relevant to the search query. This looks at anonymized data from previous searches to match the page with the query.
+Quality of the content. Search engines' aim is to prioritize the most reliable sources available. The intelligence built into the algorithms can identify which pages demonstrate expertise, authoritativeness and trustworthiness in relation to the intent.
+Usability of webpages. Web design and accessibility play a big part in search rankings. The algorithm looks for how the site appears in different browsers, if it's designed for different device types -- such as desktops, tablets and phones -- and if the page loading times work well for users with slower internet connections.
+Context and settings. Search engines and their algorithms use information from past search history and search settings to help determine which results are most useful to a user at that moment. Country and location can be used to deliver content relevant to the area from which someone is searching. For example, someone searching for "football" in New England would get different results than someone entering for the same query in England.
+SEO benefits
+Search engine optimization is an essential marketing activity to make a website or business visible on the web. But it also provides several other benefits to companies.
+Builds trust and credibility
+Sites that rank high on SERPs are considered to be of the highest quality and most trustworthy. Results shown on the first page are the most relevant, resulting in more credibility for the business or website. Having the right content on the site and a good user experience will help the website rank higher.
+Provides a competitive advantage
+When good SEO is deployed consistently, those that do it more and better will outrank the competition. Many businesses feel they cannot afford to not be on the first page of a search result. But if a team works toward that goal and shows ahead of the competition, they will have a competitive edge.
+Reaches more people
+SEO helps attract any user with intent at any time, regardless of phase of the customer journey that user is in. It relies on keywords and phrases to attract audiences to specific products and services. Businesses can create a list of keywords for which they would like to rank, then build content around those keywords.
+Supports content marketing
+By having a list of keywords to rank for and building content around those keywords, users are more likely to find the information they seek. Content and SEO work in harmony with each other. A site will rank better by creating useful, high-quality content that is optimized for those keywords. Ensuring the keywords are present in headings, meta descriptions and the body of the content will improve rankings for those terms.
+Here are some tips for creating a content marketing SEO strategy.
+Ranks better in local searches
+The use of local searches are becoming more common, with users looking for products or services "near me." To improve listings in these searches, a company can create a Google My Business account and optimize the listing for local searches. Along with that and the localized content on the website, a user will be more likely to see local search results in their queries.
+Understand web environment
+Users that stay up to date on the everchanging internet will be better able to execute the ongoing SEO needs for a website. By staying up to date, businesses can better understand how search works and make more informed decisions on how to change and adapt their strategies.
+Relatively inexpensive
+To have an effective SEO strategy, companies need to invest in the time and resources to be effective. There are companies that can be hired as SEO experts to manage the strategies, but companies with the right team in place can do it themselves.
+Get quantifiable results
+There are tools and analytics data that can be tapped into to measure the effectiveness of SEO efforts. Google Analytics can provide comprehensive data around organic traffic. Data includes pages that customers engaged with and keywords used in search. That data can then be cross-referenced with intended actions taken to see how SEO played a role in customer engagement or acquisition.
+Q. ASCII VS UTF-8 VS UTF-16
+A.
+1.	 ASCII (American Standard Code for Information Interchange):
+•	ASCII is one of the earliest character encoding standards.
+•	It uses 7 bits to represent each character, allowing for a total of 128 characters.
+•	Originally developed for English, it doesn't support characters from other languages.
+2.	UTF-8 (Unicode Transformation Format - 8-bit):
+•	UTF-8 is a variable-width character encoding that can represent every character in the Unicode character set.
+•	It uses 8 bits and is backward compatible with ASCII.
+•	UTF-8 is the most widely used encoding on the web. It can represent any character in the Unicode standard, making it versatile for multilingual content.
+3.	UTF-16 (Unicode Transformation Format - 16-bit):
+•	UTF-16 is another variable-width character encoding.
+•	It uses 16 bits for each character, allowing it to represent a larger set of characters than ASCII and UTF-8.
+•	It's commonly used in applications that require internationalization and the representation of characters from various languages.
+Key Differences:
+•	ASCII is fixed-width (7 bits), while UTF-8 and UTF-16 are variable-width (8 and 16 bits, respectively).
+•	UTF-8 is backward compatible with ASCII, but UTF-16 may require more storage for certain characters.
+•	UTF-8 is more space-efficient for English text but can take more space for non-Latin characters compared to UTF-16.
+•	UTF-8 is dominant on the internet, while UTF-16 is commonly used in various systems and applications.
+In summary, while ASCII is limited to English characters, UTF-8 and UTF-16 are more versatile and can handle a broader range of characters from different languages and scripts. UTF-8 is widely used for web content due to its efficiency and compatibility with ASCII.
+Q. Difference between Franework and API?
+A. 
+1.	Framework:
+•	A framework is a pre-built, reusable set of libraries, tools, and conventions designed to aid in the development of software applications.
+•	It provides a foundation that developers can build upon, defining the structure and flow of the application.
+•	Frameworks often include a set of rules and guidelines that developers need to follow to ensure consistency and best practices in their code.
+•	Examples of frameworks include Django and Ruby on Rails for web development, TensorFlow and PyTorch for machine learning.
+2.	API (Application Programming Interface):
+•	An API is a set of rules and tools that allows different software applications to communicate with each other.
+•	It defines the methods and data formats that applications can use to request and exchange information.
+•	APIs can be used for various purposes, such as accessing web services, databases, or external libraries.
+•	APIs can exist at different levels, including operating systems, libraries, or web-based services.
+•	Examples of APIs include the Java API, which provides functions for Java programming, and the Twitter API, which allows developers to access Twitter's functionalities in their applications.
+A framework is a broader concept that provides a structure and set of tools for developing applications, while an API is a set of rules and tools for allowing different software components or applications to interact with each other. A framework often includes APIs, which developers use to achieve specific functionalities within the framework.
+
+
